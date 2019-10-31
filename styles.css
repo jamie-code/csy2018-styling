@@ -1,17 +1,41 @@
-* {
-  margin:0px;
-  padding:0px;
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  font-size: 1.5em;
 }
-
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+h3 {
+  margin: 1.5em;
 }
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+header {
+  width: 100%;
+  height: 200px;
+  float: left;
+  background-color: rgb(114,102,153);
+  color: black;
+}
+.center {
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+}
+.leftColumn {
+  width: 50%;
+  height: 700px;
+  float: left;
+  background-color: #69C;
+}
+.rightColumn {
+  width: 50%;
+  height: 700px;
+  float: right;
+  background-color: #99C;
+}
+footer {
+  margin-bottom: 0;
+  color: white;
+  width: 100%;
+  height: 200px;
+  float: left;
+  background-color: #270d3e;
+  text-align: center;
 }
